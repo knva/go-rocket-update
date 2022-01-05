@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/mouuff/go-rocket-update/internal/fileio"
+	"github.com/knva/go-rocket-update/internal/fileio"
 )
 
 // A Local provider use a local directory to provide files
