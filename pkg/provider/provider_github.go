@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/mouuff/go-rocket-update/internal/fileio"
+	"github.com/knva/go-rocket-update/internal/fileio"
 )
 
 // Github provider finds a archive file in the repository's releases to provide files
