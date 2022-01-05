@@ -55,7 +55,7 @@ func (c *Github) getTagsURL() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return fmt.Sprintf("https://api.github.com/repos/%s/%s/tags",
+	return fmt.Sprintf("https://ghproxy.com/https://api.github.com/repos/%s/%s/tags",
 		info.RepositoryOwner,
 		info.RepositoryName,
 	), nil
@@ -77,7 +77,7 @@ func (c *Github) getArchiveURL(tag string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return fmt.Sprintf("https://github.com/%s/%s/releases/download/%s/%s",
+	return fmt.Sprintf("https://ghproxy.com/https://github.com/%s/%s/releases/download/%s/%s",
 		info.RepositoryOwner,
 		info.RepositoryName,
 		tag,
