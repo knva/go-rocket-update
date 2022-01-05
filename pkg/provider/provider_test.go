@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mouuff/go-rocket-update/internal/constant"
-	"github.com/mouuff/go-rocket-update/internal/fileio"
-	"github.com/mouuff/go-rocket-update/pkg/provider"
+	"github.com/knva/go-rocket-update/internal/constant"
+	"github.com/knva/go-rocket-update/internal/fileio"
+	"github.com/knva/go-rocket-update/pkg/provider"
 )
 
 // ProviderTestWalkAndRetrieve tests the expected behavior of a provider
