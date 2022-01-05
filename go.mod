@@ -1,4 +1,4 @@
-module github.com/mouuff/go-rocket-update
+module github.com/knva/go-rocket-update
 
 go 1.12
 
