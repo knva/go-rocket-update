@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mouuff/go-rocket-update/internal/fileio"
-	"github.com/mouuff/go-rocket-update/pkg/provider"
+	"github.com/knva/go-rocket-update/internal/fileio"
+	"github.com/knva/go-rocket-update/pkg/provider"
 )
 
 // UpdateStatus represents the status after Updater{}.Update() was called
