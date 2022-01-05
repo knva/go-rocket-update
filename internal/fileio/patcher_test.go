@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mouuff/go-rocket-update/internal/fileio"
+	"github.com/knva/go-rocket-update/internal/fileio"
 )
 
 func assertFilesEquals(t *testing.T, fileA, fileB string) {
